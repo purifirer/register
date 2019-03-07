@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="get">Get Started</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="username">Username</string>
+    <string name="gmail">example@gmail.com</string>
+</resources>

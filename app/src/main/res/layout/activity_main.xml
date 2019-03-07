@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Orientation"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#4A148C"
+            android:text="Registration        X"
+           android:gravity=""
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:drawableStart="@drawable/ic_gmail"
+            android:hint="@string/gmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:drawableStart="@drawable/ic_person"
+            android:hint="@string/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+           android:text="@string/get"
+            android:layout_margin="50dp"
+            android:background="#D500F9"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+
+            />
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
